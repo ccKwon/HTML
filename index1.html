@@ -1,0 +1,1270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+    *Created on 2019-4-27 
+    *Author: Yongquan_Chen
+    *Title: 华为官网练习项目
+-->
+
+
+<head>
+    <script type="text/javascript" src="./js/huawei.js" defer=true></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="./CSS/index.css">
+</head>
+
+<body>
+    <!-- top nav 开始 -->
+    <div id="nav">
+        <!-- container  -->
+        <div class="container">
+            <!-- left -->
+            <div class="left" onclick="divshowhide();return false;">
+                <a href="">集团网站</a>
+            </div>
+            <!-- /left  -->
+
+            <!-- right -->
+            <div class="right">
+
+                <a href="">
+                    <span class="global"></span>
+                    <span style="padding-right:10px">选择区域/语言</span>
+                    <span class="arrow"></span>
+                </a>
+                <span class="spacer"></span>
+                <span class="lock"></span>
+                <a href="">登录</a>
+
+            </div>
+            <!-- /right -->
+        </div>
+        <!-- container end -->
+
+    </div>
+    <!-- top nav 结束 -->
+
+
+
+
+    <div id="block" style="display: none;">
+        <div class="con">
+            <div>
+                <span><b>集团网站</b></span>
+                <span>公司信息，社会责任，新闻，展会活动，行业洞察等等</span>
+            </div>
+
+            <div>
+                <a id="orangea" href="https://www.baidu.com/">
+                    <span>个人用户
+                        <img style="margin-left:10px" src="./image/right-arrow.png">
+                    </span>
+                </a>
+                <a href="">
+                    <span>手机，PC和平板，穿戴设备等个人及家用产品</span>
+                </a>
+            </div>
+
+            <div>
+                <a id="orangea" href="">
+                    <span>企业用户
+                        <img style="margin-left:10px" src="./image/right-arrow.png">
+                    </span>
+                </a>
+                <a href="">
+                    <span>企业商用产品、解决方案和云服务</span>
+                </a>
+            </div>
+
+            <div>
+                <a id="orangea" href="">
+                    <span>运营商用户
+                        <img style="margin-left:10px" src="./image/right-arrow.png">
+                    </span>
+                </a>
+                <a href="">
+                    <span>运营商网络解决方案、产品及服务</span>
+                </a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- menu   开始 -->
+    <div class="menu">
+        <!-- menu-con   开始 -->
+        <div class="menu-con">
+            <div>
+                <a href="">
+                    <img src="./image/logo.png">
+                </a>
+            </div>
+
+            <div>
+                <span class="phonelogo"></span>
+
+                <div onmouseover="hoverlist1(); return false;" onmouseout="outlist1()">
+                    <a href="">
+                        <span class="fontloca">手机、笔记本&平板...</span>
+                        <span class="down-arrow"></span>
+                    </a>
+                </div>
+
+
+            </div>
+
+            <div onmouseover="hoverlist2(); return false;" onmouseout="outlist2()">
+                <span class="menulogo"></span>
+
+                <a href="">
+                    <span class="fontloca">解决方案&服务</span>
+                    <span class="down-arrow"></span>
+                </a>
+
+                <span class="line"></span>
+            </div>
+
+            <div>
+                <a href=""><span class="fontloca">华为商城</span></a>
+                <a href=""><span class="tap"></span></a>
+                <a href=""><span class="fontloca">华为云</span></a>
+                <a href=""><span class="tap"></span></a>
+            </div>
+
+            <div>
+                <a href=""><span class="search"></span></a>
+            </div>
+
+        </div>
+        <!-- menu-con   结束 -->
+    </div>
+    <!-- menu   结束 -->
+
+
+
+    <!-- 手机 笔记本平板隐藏块 -->
+    <div onmouseover="hoverlist1(); return false;" onmouseout="outlist1()" class="hoverlist1" style="display:none">
+        <div class="list1-left">
+            <div class="p30-phone">
+                <img src="./image/nav_p30pro_cn.jpg">
+            </div>
+
+            <div class="read-more-info"><a href="">了解更多　　></a></div>
+
+            <div class="hoverlist-container">
+                <div class="prod-list">
+                    <div class="list1-left-1">
+
+                        <div class="div-padd">
+                            <a href="">
+                                <div>
+                                    <img src="./image/list1_phone.png">
+
+                                    <p>手机</p>
+
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <img src="./image/list1_watch.png">
+
+                                    <p>穿戴</p>
+
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="div-padd">
+                            <a href="">
+                                <div>
+                                    <img src="./image/list1_pc.png">
+
+                                    <p>PC</p>
+
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <img src="./image/list1_ear.png">
+
+                                    <p>配件</p>
+
+                                </div>
+                            </a>
+                        </div>
+
+
+
+                        <div class="div-padd">
+                            <a href="">
+                                <div>
+                                    <img src="./image/list1_pad.png">
+
+                                    <p>平板</p>
+
+                                </div>
+                            </a>
+                            <a href="">
+                                <div>
+                                    <img src="./image/list1_smart.png">
+
+                                    <p>智能家居</p>
+
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="check-prod">前往 <a href="">consumer.huawei.com</a> 查看全部产品</div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="list1-right">
+            <div class="list1-right-container">
+                <div>
+                    <h3>需要技术支持？</h3>
+                </div>
+                <ul>
+                    <a href="">
+                        <li>寄修服务</li>
+                    </a>
+                    <a href="">
+                        <li>预约服务</li>
+                    </a>
+                    <a href="">
+                        <li>保修状态查询</li>
+                    </a>
+                    <a href="">
+                        <li>保修政策</li>
+                    </a>
+                </ul>
+
+                <div style="margin-top:110px;"><a href="">访问 <span style="color: #f6786a">技术支持中心</span></a></div>
+            </div>
+        </div>
+    </div>
+    <!-- 手机 笔记本平板隐藏块 -->
+
+
+
+    <!-- 解决方案&服务隐藏块 -->
+
+    <div class="list2-nav" onmouseover="hoverlist2(); return false;" onmouseout="outlist2()" style="display:none">
+        <ul>
+            <div onclick="list2_l0()" id="list2-nav1">
+                <li>企业用户</li>
+                <li><img src="./image/underline-orange_03.png"></li>
+            </div>
+            <div onclick="list2_l1()" id="list2-nav2">
+                <li>运营商用户</li>
+                <li><img src="./image/underline-orange_03.png"></li>
+            </div>
+            <div onclick="list2_l2()" id="list2-nav3">
+                <li>华为云服务</li>
+                <li><img src="./image/underline-orange_03.png"></li>
+            </div>
+            <!-- <li>企业用户</li>
+            <li>运营商用户</li>
+            <li>华为云服务</li> -->
+        </ul>
+
+    </div>
+
+    <div style="height:1px; background:#d0d0d0"></div>
+
+    <div class="hoverlist2" onmouseover="hoverlist2(); return false;" onmouseout="outlist2()" style="display:none">
+        <div class="list2-l0">
+            <div class="list2-left" >
+                <div class="list2-left-container">
+                    <div>
+                        <p>
+                            <h2>产品</h2>
+                        </p>
+                        <ul>
+                            <a href="">
+                                <li>交换机</li>
+                            </a>
+                            <a href="">
+                                <li>路由器</li>
+                            </a>
+                            <a href="">
+                                <li>WLAN</li>
+                            </a>
+                            <a href="">
+                                <li>存储</li>
+                            </a>
+                            <a href="">
+                                <span>
+                                    <li>查看全部</li>
+                                </span>
+                            </a>
+                            <a href="">
+                                <li style="margin-top:50px;">前往 <span style="color:#f6786a">e.huawei.com</span> 产看全部企业业务
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div style="margin-left:30px;">
+                        <p>
+                            <h2>解决方案</h2>
+                        </p>
+                        <ul>
+                            <a href="">
+                                <li>云数据中心</li>
+                            </a>
+                            <a href="">
+                                <li>企业网络</li>
+                            </a>
+                            <a href="">
+                                <li>智能计算</li>
+                            </a>
+                            <a href="">
+                                <li>各行业解决方案</li>
+                            </a>
+                            <a href="">
+                                <span>
+                                    <li>查看全部</li>
+                                </span>
+                            </a>
+                        </ul>
+
+                    </div>
+
+                    <div style="margin-left:180px;">
+                        <p>
+                            <h2>服务</h2>
+                        </p>
+                        <ul>
+                            <a href="">
+                                <li>培训与认证</li>
+                            </a>
+                            <a href="">
+                                <li>行业云使能服务</li>
+                            </a>
+                            <a href="">
+                                <li>提升服务</li>
+                            </a>
+                            <a href="">
+                                <li>客户支持服务</li>
+                            </a>
+                            <a href="">
+                                <span>
+                                    <li>查看全部</li>
+                                </span>
+                            </a>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="list2-right">
+
+                <div>
+                    <p>
+                        <h2>需要技术支持？</h2>
+                    </p>
+                    <ul>
+                        <a href="">
+                            <li>产品支持</li>
+                        </a>
+                        <a href="">
+                            <li>软件下载</li>
+                        </a>
+                        <a href="">
+                            <li>技术论坛</li>
+                        </a>
+                        <a href="">
+                            <li>工具</li>
+                        </a>
+                        <a href="">
+                            <span>
+                                <li>查看全部</li>
+                            </span>
+                        </a>
+                        <a href="">
+                            <li style="margin-top:40px;">前往 <span style="color:#f6786a">技术支持中心</span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="list2-l1" style="display:none">
+            <div class="list2-left">
+                <div class="list2-left-container">
+                    <div>
+                        <p>
+                            <h2>产品</h2>
+                        </p>
+                        <ul>
+                            <a href="">
+                                <li>无线网络</li>
+                            </a>
+                            <a href="">
+                                <li>固定网络</li>
+                            </a>
+                            <a href="">
+                                <li>云核心网</li>
+                            </a>
+                            <a href="">
+                                <li>电信软件</li>
+                            </a>
+                            <a href="">
+                                <span>
+                                    <li>查看全部</li>
+                                </span>
+                            </a>
+                            <a href="">
+                                <li style="margin-top:50px;">前往 <span style="color:#f6786a">e.huawei.com</span> 产看全部企业业务
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div style="margin-left:30px;">
+                        <p>
+                            <h2>解决方案</h2>
+                        </p>
+                        <ul>
+                            <a href="">
+                                <li>业务云化</li>
+                            </a>
+                            <a href="">
+                                <li>设备云化</li>
+                            </a>
+                            <a href="">
+                                <li>网络云化</li>
+                            </a>
+                            <a href="">
+                                <li>最大化网络价值</li>
+                            </a>
+                            <a href="">
+                                <span>
+                                    <li>查看全部</li>
+                                </span>
+                            </a>
+                        </ul>
+
+                    </div>
+
+                    <div style="margin-left:180px;">
+                        <p>
+                            <h2>服务</h2>
+                        </p>
+                        <ul>
+                            <a href="">
+                                <li>咨询服务</li>
+                            </a>
+                            <a href="">
+                                <li>系统集成服务</li>
+                            </a>
+                            <a href="">
+                                <li>管理服务</li>
+                            </a>
+                            <a href="">
+                                <li>培训服务</li>
+                            </a>
+                            <a href="">
+                                <span>
+                                    <li>查看全部</li>
+                                </span>
+                            </a>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="list2-right">
+
+                <div>
+                    <p>
+                        <h2>需要技术支持？</h2>
+                    </p>
+                    <ul>
+                        <a href="">
+                            <li>产品支持</li>
+                        </a>
+                        <a href="">
+                            <li>Group Space</li>
+                        </a>
+                        <a href="">
+                            <li>公告</li>
+                        </a>
+                        <a href="">
+                            <li>华为资料直通车</li>
+                        </a>
+                        <a href="">
+                            <li style="margin-top:40px;">前往 <span style="color:#f6786a">技术支持中心</span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="list2-l2" style="display:none">
+            <div class="list2-left">
+                <div class="list2-left-container">
+
+                    <div style="margin-right:150px; text-align: center;">
+                        <img src="./image/nav-contact_02.png">
+                        <a href=""> <span style="color:black">
+                                <p>华为云<br>+智能，见未来></p>
+
+                            </span>
+                        </a>
+                    </div>
+
+                    <div>
+                        <p>
+                            <h2>产品</h2>
+                        </p>
+                        <ul>
+                            <a href="">
+                                <li>弹性云服务器</li>
+                            </a>
+                            <a href="">
+                                <li>关系型数据库</li>
+                            </a>
+                            <a href="">
+                                <li>软件开发云</li>
+                            </a>
+                            <a href="">
+                                <span>
+                                    <li>查看全部</li>
+                                </span>
+                            </a>
+                            <a href="">
+                                <li style="margin-top:50px;">前往 <span style="color:#f6786a">e.huawei.com</span> 产看全部企业业务
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <div style="margin-left:30px;">
+                        <p>
+                            <h2>解决方案</h2>
+                        </p>
+                        <ul>
+                            <a href="">
+                                <li>电商行业企业自建解决方案</li>
+                            </a>
+                            <a href="">
+                                <li>游戏行业解决方案</li>
+                            </a>
+                            <a href="">
+                                <li>高性能计算解决方案</li>
+                            </a>
+                            <a href="">
+                                <li>SPA解决方案</li>
+                            </a>
+                            <a href="">
+                                <span>
+                                    <li>查看全部</li>
+                                </span>
+                            </a>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="list2-right">
+
+                <div>
+                    <p>
+                        <h2>需要技术支持？</h2>
+                    </p>
+                    <ul>
+                        <a href="">
+                            <li>服务保障体系</li>
+                        </a>
+                        <a href="">
+                            <li>华为云社区</li>
+                        </a>
+                        <a href="">
+                            <li style="margin-top:40px;">前往 <span style="color:#f6786a">帮助中心</span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 解决方案&服务隐藏块 -->
+
+
+
+
+    
+    <!-- 幻灯片 -->
+    <div style="position:relative; height: 500px;">
+        <div class="img-switch">
+
+            <!-- <div class="prev-button">
+                <button class="button-set" type="button" style="background:url('./image/prev-arrow_05.png')">
+            </div> -->
+
+
+            <div class="img-banner fade">
+                <img src="./image/Hbanner-annualreport-bg.jpg">
+                <div class="img-info">
+                    <h2>构建万物互联的智能世界</h2>
+                    <p>华为全球分析师大会</p>
+                    <h3>4月16-18日 | 中国 深圳</h3>
+                    <a href="">
+                        <div style="margin-top:70px; font-size:20px">了解更多</div>
+                        <div>
+                            <img class="arrow-set" src="image/arrow-big-while_08.png">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="img-banner fade">
+                <img src="./image/hbanner_p30pro_cn_v3.jpg">
+
+            </div>
+
+            <div class="img-banner fade">
+                <div class="img-info">
+                    <p style="color:white; font-weight: 200">轮值董事长郭平:</p>
+                    <h2 style="color:white; font-weight: 350">选择华为更安全</h2>
+
+                </div>
+                <img src="./image/hbanner-hwsafer-bg.jpg">
+            </div>
+
+
+            <div class="dot-set">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+
+            <!-- <div class="next-button">
+                <button class="button-set" type="button" style="background:url('./image/next-arrow_05.png')">
+            </div> -->
+
+
+        </div>
+
+
+
+
+        <div class="navigation-buckets">
+            <div class="row">
+                <div class="navigation-container">
+                    <div class="col">
+                        <span>
+                            <img src="./image/pro-phone_05.png">
+                        </span>
+                        <span style="margin-left:40px; margin-right: 30px">
+                            <h3>个人用户</h3>
+                            <p style="margin-top:8px">手机、笔记本和平板等个人及家用产品</p>
+                        </span>
+
+
+                    </div>
+
+                    <span class="long-line">
+                        <img src="./image/long-line_05.png">
+                    </span>
+
+                    <div class="col">
+                        <span>
+                            <img src="./image/pro-client_05.png">
+                        </span>
+                        <span style="margin-left:40px; margin-right: 30px">
+                            <h3>企业用户</h3>
+                            <p style="margin-top:8px">企业商用产品、解决方案及云服务</p>
+                        </span>
+
+                    </div>
+
+                    <span class="long-line">
+                        <img src="./image/long-line_05.png">
+                    </span>
+
+                    <div class="col">
+                        <span>
+                            <img src="./image/pro-server_05.png">
+                        </span>
+                        <span style="margin-left:40px; margin-right: 30px">
+                            <h3>运营商用户</h3>
+                            <p style="margin-top:8px">运营商网络解决方案、产品及服务</p>
+                        </span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- 幻灯片 -->
+
+
+
+
+
+    <div class="product-info">
+
+        <div class="mate20-info">
+            <a onmouseover="phone_move_over(); return false;" onmouseout="phone_move_out();" href="">
+                <div class="mate20-card">
+                    <div class="card-container">
+
+                        <div class="mate20-introduce">
+                            <img src="./image/mate20-introduce_08.png">
+                            <p>智慧新高度</p>
+                        </div>
+
+                        <div style="font-size: 22px; color: white; margin-top: 150px;">了解更多
+                            <img class="arrow-set" src="./image/arrow-big-blue_08.png">
+                        </div>
+
+                        <span>
+                            *图片仅供参考，请以实物为准
+                        </span>
+
+                    </div>
+                </div>
+
+                <div class="mate20-phnoe">
+                    <img src="./image/p30_left_cn.png">
+                </div>
+                <div class="shadow">
+                    <img class="shadow-img" src="./image/shadow_05.png">
+                </div>
+
+
+
+            </a>
+        </div>
+
+
+
+        <div class="nova4-info">
+            <div class="nova4-price">
+                <img src="./image/vmall-box2-2.jpg">
+            </div>
+
+            <div class="nova4-sell">
+                <div style="color:gray">产品</div>
+                <div>
+                    <h2> </h2>
+                    <h3>华为nova4，现已开售</h3>
+                    <p style="margin-top:15px">麒麟旗舰芯片，更懂你的AI实力派</p>
+                </div>
+
+                <a href="">
+                    <div class="buy-text">
+                        立即购买
+                        <span>
+                            <img class="arrow-set" src="./image/arrow-big_08.png">
+                        </span>
+
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="mateX-introduce">
+
+        <div class="matex-container">
+            <div class="matex-text">
+                <img src="./image/home_banner_matex_pc_cn.jpg">
+            </div>
+
+            <div class="matex-card">
+                <div class="title">
+                    <img src="./image/home_banner_matex_text_cn.png">
+                </div>
+
+                <a href="">
+                    <div class="get-info">
+                        了解更多
+                        <span>
+                            <img class="arrow-set" src="./image/arrow-big-while_08.png">
+                        </span>
+
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="Exhibition-act">
+        <div class="Exhibition-title">
+            <div class="Exhibition">
+                <h3>展会活动</h3>
+            </div>
+
+            <div class="get-all-info">
+                <a href="">
+                    查看全部
+                    <span>
+                        <img class="arrow-set" src="./image/arrow-big-while_08.png">
+                    </span>
+
+                </a>
+            </div>
+        </div>
+
+        <div class="Exhibition-act-info">
+            <div class="Exhibition-info">
+                <div class="Exhibition-test">
+                    <div style="font-size:14px;">
+                        展会活动
+                    </div>
+                    <div>
+                        <h3 style="font-size:28px">2019年全球5G极简站点论坛</h3>
+                        <p>英国 伦敦 | 2019年6月11日</p>
+                        <p>本次论坛将围绕如何极简、快速、高效地大规模部署5G展开探讨。在此新愿景之下，来自华为和全球通信行业的高层以及决策者将携手合作，共同克服早期5G商用的挑战。</p>
+                        <span style="margin-bottom:50px; float: left;" class="read-more">了解更多
+                        </span>
+                        <img style="margin-left:100px; margin-bottom:50px;" src="./image/arrow-big_08.png">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="Exhibition-img">
+                <img src="./image/5g-ultra-lean-site-2019-540.jpg">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="story-block">
+        <div class="story-title">
+            <div class="story">
+                <h3>成功故事</h3>
+            </div>
+
+            <div class="get-all-info">
+                <a href="">
+                    <div>查看全部
+                        <span>
+                            <img class="arrow-set" src="./image/arrow-big-while_08.png">
+                        </span>
+
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="story-borad">
+            <a href="">
+                <div class="story-card">
+                    <span>
+                        <img src="./image/yunnan-video-crbt.jpg">
+                    </span>
+
+                    <div class="story-info">
+                        <div>
+                            商业故事
+                            <p>
+                                <h3>变“听彩铃”为“看彩铃”：视频彩 铃成为云南最重要的名片</h3>
+                            </p>
+                            <div class="read-more">更多
+                                <img class="arrow-toright" src="./image/arrow-big_08.png">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </a>
+            <a href="">
+                <div class="story-card">
+                    <span>
+                        <img src="./image/rustenburg-smart-city.jpg">
+                    </span>
+
+                    <div class="story-info">
+
+                        <div>
+                            商业故事
+                            <p>
+                                <h3>铂金之都南非勒斯滕堡开采智慧城市金矿</h3>
+                            </p>
+                            <div class="read-more">更多
+                                <img class="arrow-toright" src="./image/arrow-big_08.png">
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </a>
+
+            <a onmouseover="arrow_right_over()" href="">
+                <div class="story-card">
+                    <span>
+                        <img src="./image/3uk-314.jpg">
+                    </span>
+
+                    <div class="story-info">
+
+                        <div>
+                            商业故事
+                            <p>
+                                <h3>Three UK：5G提升网络容量，创造酷炫应用</h3>
+                            </p>
+                            <div class="read-more">更多
+                                <img class="arrow-toright" src="./image/arrow-big_08.png">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="news-block">
+        <div class="news-title">
+            <div class="news">
+                <h3>近期新闻</h3>
+            </div>
+
+            <div onmouseover="arrow_set_over()" onmouseout="arrow_set_out(); return false;" class="get-all-info">
+                <a href="">
+                    查看全部
+                    <span>
+                        <img class="arrow-set" src="./image/arrow-big-while_08.png">
+                    </span>
+
+                </a>
+            </div>
+        </div>
+
+        <div class="news-list-container">
+            <a href="">
+                <div class="news-list1">
+                    <span>
+                        <img src="./image/190416.jpg">
+                    </span>
+
+                    <div class="news-info">
+                        新闻 | 2019年04月16日
+                        <p>
+                            <h3>Three UK：5G提升网络容量，创造酷炫应用</h3>
+                        </p>
+                        <div class="read-more">更多
+                            <img class="arrow-toright" src="./image/arrow-big_08.png">
+                        </div>
+
+                    </div>
+                </div>
+            </a>
+
+            <div class="news-list2">
+                <ul>
+                    <li>新闻 | 2019年04月16日
+                        <a href="">
+                            <p>华为宣布迈向基于愿景驱动的理论突破和基础技术发明的创新2.0时代</p>
+                        </a>
+                    </li>
+                    <li>新闻 | 2019年04月16日
+                        <a href="">
+                            <p>华为携手合作伙伴发起双G Cloud VR发展倡议</p>
+                        </a>
+                    </li>
+                    <li>新闻 | 2019年04月15日
+                        <a href="">
+                            <p>华为网络运化引擎NCE竞争力被评为广域网SDN控制器业界领导者地位</p>
+                        </a>
+                    </li>
+                    <li>新闻 | 2019年04月12日
+                        <a href="">
+                            <p>华为将助力北京大数据行动计划数据治理工作</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="footer-container">
+
+            <div class="about-huawei-nav">
+                <div>
+                    <a href="">
+                        <h2>关于华为</h2>
+                    </a>
+                    <ul>
+                        <a href="">
+                            <li>公司简介</li>
+                        </a>
+                        <a href="">
+                            <li>公司治理</li>
+                        </a>
+                        <a href="">
+                            <li>管理层信息</li>
+                        </a>
+                        <a href="">
+                            <li>可持续发展</li>
+                        </a>
+                        <a href="">
+                            <li>网络安全</li>
+                        </a>
+                        <a href="">
+                            <li>债券投资者关系</li>
+                        </a>
+                        <a href="">
+                            <li>出版物</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div>
+                    <a href="">
+                        <h2>新闻 & 展会</h2>
+                    </a>
+                    <ul>
+                        <a href="">
+                            <li>新闻</li>
+                        </a>
+                        <a href="">
+                            <li>展会活动</li>
+                        </a>
+                        <a href="">
+                            <li>公司年报</li>
+                        </a>
+                        <a href="">
+                            <li>媒体工具</li>
+                        </a>
+                        <a href="">
+                            <li>网络安全</li>
+                        </a>
+                        <a href="">
+                            <li>媒体联系</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div>
+                    <a href="">
+                        <h2>行业洞察</h2>
+                    </a>
+                    <ul>
+                        <a href="">
+                            <li>行业研究</li>
+                        </a>
+                        <a href="">
+                            <li>行业展望</li>
+                        </a>
+                        <a href="">
+                            <li>热点技术</li>
+                        </a>
+                        <a href="">
+                            <li>创新</li>
+                        </a>
+
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>技术支持</h2>
+                    <ul>
+                        <a href="">
+                            <li>消费者技术支持</li>
+                        </a>
+                        <a href="">
+                            <li>企业技术支持</li>
+                        </a>
+                        <a href="">
+                            <li>运营商技术支持</li>
+                        </a>
+                        <a href="">
+                            <li>安全通告</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="business-entry">
+                <div>
+                    <h2>业务入口</h2>
+                </div>
+
+                <a href="">
+                    <div class="list">
+                        招聘
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="list">
+                        开发者
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="list">
+                        合作伙伴
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="list">
+                        产品定义社区
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="list">
+                        供应商平台
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="list">
+                        除名查询
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+
+            </div>
+
+
+            <div class="web-sites">
+                <div>
+                    <h2>相关网站</h2>
+                </div>
+
+                <a href="">
+                    <div class="list">
+                        华为商城
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="list">
+                        华为云
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="list">
+                        华为智能光伏
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="list">
+                        华为心声社区
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="list">
+                        华为海洋
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+                <a onmouseover="showimg(); return false" onmouseout="hideimg()" href="">
+                    <div class="list">
+                        荣耀官网
+                        <img src="./image/tape_grey.png">
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- <div class="tran-test">
+        <img src="./image/p30_left_cn.png">
+    </div> -->
+
+</body>
+
+</html>

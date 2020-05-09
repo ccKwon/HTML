@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0 ;
+}
+#nav {
+  background: #222;
+  color: #fff;
+}
+#nav .container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+#nav .container .left {
+  float: left;
+}
+#nav .container .left a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 28px;
+  font-size: 11px;
+  background: url(./image/down-arrow.png) right center no-repeat;
+  padding-right: 20px;
+}
+#nav .container .right {
+  float: right;
+}
+#nav .container .right a {
+  line-height: 28px;
+  font-size: 11px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.global{
+  padding-right: 30px;
+  height: 10px;
+  width: 10px;
+  background: url(./image/global.png) left center no-repeat;
+}
+
+.arrow{
+  background: url(./image/down-arrow.png) right center no-repeat;
+  padding-left: 20px;
+}
+
+.spacer{
+  background: url(./image/line.png) center no-repeat;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.lock{
+  height: 10px;
+  background: url(./image/lock.gif) center no-repeat;
+  padding-right: 5px;
+  padding-left: 20px;
+}
+
+
+
+
+#block{
+  background-color: white;
+  height: 160px;
+}
+
+
+.con{
+  width: 100%;
+  margin-top: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#orangea{
+  color: #f6786a !important;
+  
+}
+
+#block .con  a {
+  color: black;
+  text-decoration: none;
+}
+
+#block .con  div {
+  float: left;
+  display: block;
+}
+
+
+.range{
+  margin-top: 40px;
+}
+
+
+#block .con span{
+  padding: 10px;
+  margin: 0 30px 0 0;
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  font-size: 14px;
+}

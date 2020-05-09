@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+#nav {
+    background: #222;
+    color:#fff;
+    .container{
+        // BFC
+        width:960px ; 
+        margin-left: auto; 
+        margin-right: auto; 
+        overflow: hidden;
+        .left {
+            float:left;  
+            a{
+                text-decoration: none;
+                color:#fff;
+                line-height: 28px;
+                font-size: 11px;
+                background: url(./image/down-arrow.png) right center  no-repeat;
+                padding-right: 20px;
+    
+            }
+    
+        }
+        .right {
+            float:right;
+            a {
+                font-size: 11px;
+                text-decoration: none;
+                color:#fff;
+                span {
+                    &.global {
+                        padding-right: 30px;
+                        height: 10px;
+                        width: 10px;
+                        background: url(./image/global.png) left center no-repeat;
+                    }
+                    // span.global
+                    &.arrow {
+                        background: url(./image/down-arrow.png) right center no-repeat;
+                        padding-left: 20px;
+                    }
+
+                    &.spacer {
+                        background: url(./image/line.png) center no-repeat;
+                        padding-left: 15px;
+                        padding-right: 10px;
+                    }
+    
+                }
+                
+            }
+            span{}
+            a{}
+    
+        } 
+    }
+
+}
+
+
+#block {
+    background-color: white;
+    height: 160px;
+    .con {
+        width: 100%;
+        margin-top: 40px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        span {
+            padding: 10px;
+            margin: 0 30px 0 0;
+            display: block;
+            width: 100%;
+            max-width: 250px;
+            font-size: 14px;
+        }
+
+        div {
+            float: left;
+            display: block;
+        }
+
+
+        .orangea{
+
+        }
+    }
+}
+
